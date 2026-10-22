@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Big_Shoulders, Fraunces, Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Cosmos } from "@/components/Cosmos";
 import { Cursor } from "@/components/Cursor";
 import { IntroProvider } from "@/components/IntroProvider";
@@ -49,6 +50,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </IntroProvider>
         <div aria-hidden className="vignette" />
         <div aria-hidden className="grain" />
+        <Analytics />
       </body>
     </html>
   );
