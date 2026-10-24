@@ -14,7 +14,7 @@ type Partner = {
 };
 
 const PARTNERS: Partner[] = [
-  { name: "Misfits Gaming", href: "https://misfitsgaming.gg/", Logo: MisfitsWordmark, height: "h-9 md:h-11" },
+  { name: "Misfits Gaming", href: "https://studio.misfitsgaming.gg/", Logo: MisfitsWordmark, height: "h-9 md:h-11" },
 ];
 
 /** "Partnered with" strip: centred label on a hairline, partner logos below. */
