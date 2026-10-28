@@ -14,10 +14,11 @@ const LAYOUT: { layout: string; rotate: number; speed: number }[] = [
   { layout: "md:col-span-4 md:col-start-9 md:mt-40", rotate: 3.5, speed: 140 },
   { layout: "md:col-span-5 md:col-start-2 md:mt-24", rotate: 2, speed: 110 },
   { layout: "md:col-span-5 md:col-start-8 md:-mt-28", rotate: -3.5, speed: 40 },
-  { layout: "md:col-span-6 md:col-start-4 md:-mt-4", rotate: 1.5, speed: 90 },
+  { layout: "md:col-span-5 md:col-start-1 md:-mt-4", rotate: 1.5, speed: 90 },
+  { layout: "md:col-span-6 md:col-start-7 md:mt-20", rotate: -2, speed: 70 },
 ];
 
-const ROMAN = ["I", "II", "III", "IV", "V"];
+const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
 const compact = new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 });
 
 function Plate({
@@ -78,7 +79,7 @@ function Plate({
             className="h-11 w-11 shrink-0 rounded-xl ring-1 ring-cream/10"
           />
           <div className="min-w-0 flex-1">
-            <p className="truncate font-display text-xl font-extrabold uppercase leading-tight tracking-tight text-cream">
+            <p className="break-words font-display text-xl font-extrabold uppercase leading-tight tracking-tight text-cream">
               {game.name}
             </p>
             <p className="mt-0.5 font-serif text-[14px] italic text-cream/55 [font-variation-settings:'SOFT'_100]">

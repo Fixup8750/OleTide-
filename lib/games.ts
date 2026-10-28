@@ -7,6 +7,8 @@ import phoneIcon from "@/assets/games/phone-empire-icon.png";
 import phoneShot from "@/assets/games/phone-empire-0.png";
 import ropairIcon from "@/assets/games/ropair-icon.png";
 import ropairShot from "@/assets/games/ropair-0.png";
+import speedLabIcon from "@/assets/games/speed-lab-icon.png";
+import speedLabShot from "@/assets/games/speed-lab-0.png";
 import tradingIcon from "@/assets/games/trading-tycoon-icon.png";
 import tradingShot from "@/assets/games/trading-tycoon-0.png";
 
@@ -62,6 +64,14 @@ export const GAMES: Game[] = [
     placeId: 83686617495082,
     icon: ropairIcon,
     shot: ropairShot,
+  },
+  {
+    name: "+1 Speed Lab Keyboard Escape",
+    genre: "Incremental Simulator",
+    universeId: 10768447121,
+    placeId: 130923028559265,
+    icon: speedLabIcon,
+    shot: speedLabShot,
   },
 ];
 

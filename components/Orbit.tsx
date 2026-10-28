@@ -19,8 +19,9 @@ const RIDERS = [
   { ring: 1, phase: 0.3, speed: 1 },
   { ring: 0, phase: 2.2, speed: 1.45 },
   { ring: 1, phase: 2.4, speed: 1 },
-  { ring: 0, phase: 5.3, speed: 1.45 },
+  { ring: 0, phase: 4.3, speed: 1.45 },
   { ring: 1, phase: 4.5, speed: 1 },
+  { ring: 0, phase: 0.1, speed: 1.45 },
 ];
 
 const compact = new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 });
